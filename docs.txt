@@ -1,0 +1,38 @@
+Passos
+
+- Criar o repositório
+- clonar pelo https
+- Alterar o readme
+- git add .
+- git commit -m "mensagem"
+- git push
+- vai dar um aviso para logar no terminal com a conta github
+
+Criando branches
+
+- da para criar uma branch no github
+- ao criar as branchs puxar elas
+- git pull
+
+Gerenciando Projeto no github
+
+- No github é possível utilizar de metologias ágeis de gerenciamento para organizar as entregas do projeto, indo no repositório > projects
+- É possível fazer products backlogs, marca como feito, fazendo, etc
+- além de poder editar outras propriedades da tarefa como prioridade
+- é possível só clicar e arrastar o card para mudar o status:
+
+° Backlog: foi criado o card
+° Ready: card da tarefa foi comentada na reunião e foi definido o que será feito
+° In progress: Processo de desenvolvimento
+° In review: Quando concluído, aqui será testado para ver se está funcional e bateu as espectativas
+° Done: Tarefa concluída
+
+° Quando estiver em Ready, tem que entrar na tarefa, ir em assignees e definir quem realizará, da para colocar vc mesmo
+
+- da para mudar de branch pelo próprio vscode no canto inferior esquerdo, onde tem o nome da branch atual
+- ou pelo terminal git checkout "nome da branch"
+
+° Não usar acento no commit, pode, mas não é uma boa prática
+° Só usar acento em textos visuais do software que o usuário vai ver
+° NUNCA FAZER COMMIT NA BRANCH HML
+° Criar uma nova branch, indo no canto inferior esquerdo > create new branch from > escolher a HML
